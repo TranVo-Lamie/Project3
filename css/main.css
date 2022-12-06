@@ -6,7 +6,7 @@ body { background-color:white;
 .intro {
   color: rgb(13, 58, 155);
   display: flex;
-  padding: 12px;
+  padding: 5%;
 
 }
 
@@ -47,8 +47,12 @@ body { background-color:white;
   max-width: 100%;
   height: auto;
   justify-content: center;
+  padding: 5%;
 }
-
+.Intro-Picture{
+  width: fi;
+  padding: 5%;
+}
 .socialmedia-image {
   width: 100px;
   justify-items: center;
