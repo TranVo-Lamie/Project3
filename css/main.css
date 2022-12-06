@@ -1,0 +1,76 @@
+/* Place CSS styles here */
+
+body { background-color:white;
+
+}
+.intro {
+  color: rgb(13, 58, 155);
+  display: flex;
+  padding: 12px;
+
+}
+
+#container {
+  color: purple;
+}
+.nav {
+  display: flex; 
+  justify-content: right;
+  align-items: right;
+}
+
+.button {
+  background-color: rgb(13, 58, 155);
+  color: whitesmoke;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: orange;
+}
+
+.button:focus {
+  border: 1px solid orange;
+}
+
+.button-small {
+  font-size: 14px;
+}
+
+.logo-pic {
+  width:300px;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.socialmedia-image {
+  width: 100px;
+  justify-items: center;
+}
+/* HEADER STYLES */
+.main-header {
+  display: flex;
+  justify-content:space-between;
+}
+
+/* START HOMEPAGE STYLES */
+
+/* END HOMEPAGE STYLES */
+
+/* START ABOUT STYLES */
+.about-wrapper {
+
+}
+/* END ABOUT STYLES */
+
+.items {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
