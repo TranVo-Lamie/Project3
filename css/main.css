@@ -1,37 +1,57 @@
 /* Place CSS styles here */
 
-body { background-color:white;
-
-}
-.intro {
-  color: rgb(13, 58, 155);
-  display: flex;
-  padding: 5%;
-
+body, html { 
+  background-color:rgb(255, 255, 255);
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
   color: purple;
 }
-.nav {
-  display: flex; 
-  justify-content: right;
-  align-items: right;
-}
 
+/* HEADER STYLES */
+header {
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+}
+.nav { 
+  
+}
 .button {
-  background-color: rgb(13, 58, 155);
-  color: whitesmoke;
-  border-radius: 8px;
+  background-color: rgb(46, 46, 46);
+  color: rgb(130, 92, 92);
+  border-radius: 10px;
   border: none;
   cursor: pointer;
-  padding: 12px;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 27%;
   text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 .button:hover,
 .button:focus {
-  background-color: orange;
+  background-color: rgb(250, 105, 33);
 }
 
 .button:focus {
@@ -42,33 +62,107 @@ body { background-color:white;
   font-size: 14px;
 }
 
+.header-lamie {
+  display: block;
+}
+
 .logo-pic {
-  width:300px;
-  max-width: 100%;
-  height: auto;
-  justify-content: center;
-  padding: 5%;
-}
-.Intro-Picture{
-  width: fi;
-  padding: 5%;
-}
-.socialmedia-image {
-  width: 100px;
-  justify-items: center;
-}
-/* HEADER STYLES */
-.main-header {
-  display: flex;
-  justify-content:space-between;
+  width: 300px;
+  height: 200px;
+  float: left;
+  display: block;
+  align-items: flex-start;
+  margin-top: 0%;
+  margin-left: 0%;
+
 }
 
 /* START HOMEPAGE STYLES */
+.intro-picture{
+  background-image: url(/img/Homepageintro.png);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.socialmedia-image {
+  width: 100px;
+  height: 90px;
+  float: right;
+  margin-left: 50px;
+}
+
+.footer-wrapper {
+  display: block;
+  justify-content: space-around;
+  padding-bottom: 8px;
+}
+
+.quotes {
+  text-align: left;
+  text-transform: uppercase;
+  color:rgb(45, 45, 46)
+}
 
 /* END HOMEPAGE STYLES */
 
 /* START ABOUT STYLES */
-.about-wrapper {
+.main-nav {
+  display: contents;
+  justify-content: center;
+}
+
+.lamie-profile {
+  display: flex;
+  gap: 5px;
+}
+
+.profile-picture {
+  background-image: url(/img/Artboard\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60%;
+  width: 60%;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 4cm;
+  font-weight: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-right: 100px;
+  margin-top: 200px;
+  padding-top: 250px;
+}
+
+.caption {
+font-size: 40px;
+font-weight: bolder;
+display: flex;
+}
+
+p {
+  width: 600px;
+  border: 1px solid #ffffff;
+  font-size: 40px;
+  word-break: break-word;
+ letter-spacing: 2px;
+}
+
 
 }
 /* END ABOUT STYLES */
